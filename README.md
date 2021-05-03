@@ -1,3 +1,3 @@
 # ADI
 
-This is the readme.md file.
+For informaiton, see https://trbaker.github.io/ADI 
