@@ -1,3 +1,7 @@
+# Toms mac weirdness
+*.DS_Store
+secrets.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
