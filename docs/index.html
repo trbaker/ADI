@@ -1,3 +1,12 @@
+ <script>
+  var myBtn = document.getElementById('myButton');
+
+  //add event listener
+  myBtn.addEventListener('click', function(event) {
+    window.location.href='Students.html';
+  });
+</script>
+ 
 <font face="arial">
  <h1>ADI</h1>
  <h3>ArcGIS Data Impact</h3>
@@ -6,7 +15,7 @@ Search for your ArcGIS Online Organization prefix (must be a U.S. K12 account):
 
 <form name="form1">
 <input type="text" id="box1" name="name"/>
-<input type='button' value="Go" onclick="window.location.href=form1.box1.value;"/>
+<input type='button' id="myButton" value="Go" onclick="javascript:window.location.href=form1.box1.value;"/>
  </form>
 
 
