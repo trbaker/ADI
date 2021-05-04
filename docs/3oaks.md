@@ -1,0 +1,1 @@
+<h2>3oaks</h2> i['lastdate'] <br /><a target='new' href='https://3oaks.maps.arcgis.com'>Organization link</a> | <a target='new' href='https://trbaker.github.io/ADI/'>ADI generated</a><br /><br />Public maps on this org:3<br />Public layers on this organization:0.

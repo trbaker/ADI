@@ -1,0 +1,1 @@
+<h2>education</h2> i['lastdate'] <br /><a target='new' href='https://education.maps.arcgis.com'>Organization link</a> | <a target='new' href='https://trbaker.github.io/ADI/'>ADI generated</a><br /><br />Public maps on this org:523<br />Public layers on this organization:647.
