@@ -15,7 +15,7 @@ Search for your ArcGIS Online Organization prefix (must be a U.S. K12 account). 
  http://<b>myschoolname</b>.maps.arcgis.com<br />
 <br />
 <form name="form1">
-<input type="text" id="box1" name="name" onblur="javascript:window.location.href=form1.box1.value;"/>
+<input type="text" id="box1" name="name" onkeydown = "if (event.keyCode == 13) document.getElementById('myButton').click()"/>
 <input type='button' id="myButton" value="Go" onclick="javascript:window.location.href=form1.box1.value;"/>
  </form>
 <br /><br />
