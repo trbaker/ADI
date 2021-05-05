@@ -1,7 +1,6 @@
 <html>
  <script>
   var myBtn = document.getElementById('myButton');
-  
   //add event listener
   myBtn.addEventListener('click', function(event) {
     window.location.href=form1.box1.value+'.md';
@@ -10,22 +9,22 @@
 <body> 
 <font face="arial">
  <h1>ADI</h1>
- <h3>ArcGIS Data Impact</h3>
+ <h3>ArcGIS Downstream Impact for US K-12 Schools</h3>
 
-Search for your ArcGIS Online Organization prefix (must be a U.S. K12 account). The prefix is the part of your URL in bold:<br />
+Search for your ArcGIS Online Organization prefix (must be a U.S. K12 account). The prefix is the part of the URL in bold:<br />
  http://<b>myschoolname</b>.maps.arcgis.com<br />
 <br />
 <form name="form1">
-<input type="text" id="box1" name="name"/>
+<input type="text" id="box1" name="name" onkeydown = "if (event.keyCode == 13) document.getElementById('myButton').click()"/>
 <input type='button' id="myButton" value="Go" onclick="javascript:window.location.href=form1.box1.value;"/>
  </form>
 <br /><br />
 
-If your school is not in the system or you entered the prefix incorrectly, you'll receive a rather unfortunate 404 error.  We're keeping things simple here.
+If the school is not in this system or you entered the prefix incorrectly, you'll receive a rather unfortunate 404 error.  We're keeping things simple here.
  
-ADI attempts to document school-based ArcGIS Online sites with public "browsing enabled".  Public maps and services are also discoverable
+ADI attempts to document school-based ArcGIS Online organizations with public "browsing enabled".  Public maps and services are also discoverable
  through these pages. All data on these pages was obtained without login.
  <br /><br />
- On <a href="https://github.com/trbaker/ADI">GitHub</a>.
+
  </body>
  </html>
